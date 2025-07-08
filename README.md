@@ -1,5 +1,3 @@
-.
-
 # Requirements
 
 OpenMW 49 (version from which i have created the mod)
@@ -17,3 +15,7 @@ Launch the game
 # How to use
 
 In game, you can now Prepare your weapon with a left click.
+
+# Nexus Mod
+
+https://www.nexusmods.com/morrowind/mods/57101
