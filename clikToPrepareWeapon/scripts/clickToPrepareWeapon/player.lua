@@ -17,44 +17,8 @@ local function tableContains(table, value)
 end
 
 local function preparingWeaponIsPossible()
-   local currentMode = UI.getMode()
-   
-   local modesTable = {
-      "ChargenClassGenerate",
-      "ChargenClass",
-      "Scroll",
-      "ChargenClassPick",
-      "Repair",
-      "ChargenClassReview",
-      "Loading",
-      "Journal",
-      "Rest",
-      "ChargenClassCreate",
-      "Book",
-      "ChargenRace",
-      "Container",
-      "Travel",
-      "LoadingWallpaper",
-      "Jail",
-      "Barter",
-      "SpellBuying",
-      "Alchemy",
-      "Dialogue",
-      "Companion",
-      "MainMenu",
-      "SpellCreation",
-      "Interface",
-      "Recharge",
-      "Enchanting",
-      "MerchantRepair",
-      "Training",
-      "ChargenName",
-      "LevelUp",
-      "ChargenBirth",
-      "QuickKeysMen"
-   }
-
-   return not tableContains(modesTable, currentMode)
+   local currentMode = UI.getMode()   
+   return currentMode == nil
 end
 
 local function onMouseButtonPress(button)
