@@ -14,7 +14,9 @@ Launch the game
 
 # How to use
 
-In game, you can now Prepare your weapon with a left click.
+Go to the Script tab in the options, select Click To Prepare Weapon and choose the click you want to use.
+
+In game, you can now Prepare your weapon with a click.
 
 # Nexus Mod
 
