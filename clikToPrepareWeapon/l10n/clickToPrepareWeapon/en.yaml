@@ -1,0 +1,8 @@
+ConfigTitle: "Click To Prepare Weapon"
+ConfigSummary: "Use your mouse to perpare your weapon"
+
+ConfigCategoryClientOptions: "Client Options"
+Left: "Left"
+Middle: "Middle"
+Right: "Right"
+None: "None"
