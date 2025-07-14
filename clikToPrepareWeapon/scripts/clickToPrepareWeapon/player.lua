@@ -7,15 +7,6 @@ local l10n = core.l10n('clickToPrepareWeapon')
 
 local selfObject = self
 
-local function tableContains(table, value)
-   for i = 1, #table do
-      if table[i] == value then
-         return true
-      end
-   end
-   return false
-end
-
 local function preparingWeaponIsPossible()
    local currentMode = UI.getMode()   
    return currentMode == nil
