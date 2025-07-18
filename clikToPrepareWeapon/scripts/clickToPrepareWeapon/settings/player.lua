@@ -20,9 +20,9 @@ I.Settings.registerGroup {
     permanentStorage = true,
     settings = {                
         {
-            key = 's_Click',
+            key = 's_ClickPrepare',
             renderer = 'select',
-            name = 'Click',
+            name = 'ClickPrepare',
             argument = {
                 l10n = 'ClickToPrepareWeapon',
                 items = {
@@ -33,6 +33,21 @@ I.Settings.registerGroup {
                 }
             },
             default = 'Left',
-        }
+        },
+        {
+            key = 's_ClickSheath',
+            renderer = 'select',
+            name = 'ClickSheath',
+            argument = {
+                l10n = 'ClickToPrepareWeapon',
+                items = {
+                    'Right',
+                    'Left',
+                    'Middle',
+                    'None'
+                }
+            },
+            default = 'Right',
+        }      
     },
 }

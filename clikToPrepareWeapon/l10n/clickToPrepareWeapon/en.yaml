@@ -1,7 +1,9 @@
 ConfigTitle: "Click To Prepare Weapon"
-ConfigSummary: "Use your mouse to perpare your weapon"
+ConfigSummary: "Use your mouse to draw and sheath your weapon"
 
-ConfigCategoryClientOptions: "Client Options"
+ConfigCategoryClientOptions: "Click shortcuts"
+ClickPrepare: "Click to use to draw your weapon"
+ClickSheath: "Click to use to sheath your weapon"
 Left: "Left"
 Middle: "Middle"
 Right: "Right"
